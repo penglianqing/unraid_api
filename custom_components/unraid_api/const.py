@@ -76,11 +76,11 @@ query Hass {
     }
   }
   info {
-      versions {
-        core {
-          unraid
-        }
+    versions {
+      core {
+        unraid
       }
     }
+  }
 }
 """
