@@ -13,7 +13,6 @@ CONF_SHARES: Final[str] = "shares"
 CONF_DRIVES: Final[str] = "drives"
 
 QUERY = """
-
 query Hass {
   server {
     localurl
