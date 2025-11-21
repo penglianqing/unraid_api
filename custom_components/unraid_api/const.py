@@ -74,6 +74,19 @@ query Hass {
       active
       percentTotal
     }
+    cpu {
+      percentTotal
+      cpus {
+        percentGuest
+        percentIdle
+        percentIrq
+        percentNice
+        percentSteal
+        percentSystem
+        percentTotal
+        percentUser
+      }
+    }
   }
   info {
     versions {
